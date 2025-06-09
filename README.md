@@ -1,6 +1,6 @@
 # SQL PARSER
 
-SQL parser task for a Java/Kotlin Developer position.
+SQL parser task for a Java/Kotlin Developer position, according to the [Original task](https://github.com/ecwid/new-job)
 
 The parser supports constructions in a mandatory way:
 
