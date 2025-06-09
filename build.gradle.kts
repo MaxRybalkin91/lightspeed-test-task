@@ -21,6 +21,15 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
+tasks.build {
+    dependsOn(tasks.test)
+}
+
+tasks.assemble {
+    finalizedBy(tasks.check)
+}
+
 kotlin {
     jvmToolchain(21)
 }
