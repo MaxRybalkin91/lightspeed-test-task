@@ -22,9 +22,13 @@ The application supports only correct SQL queries, meaning the parser works
 only with already checked structures and valid SQL-parts order, as well as valid
 parenthesis.
 
+---
 To get the parts structured as written above, a user should run the main() func
-in the Main.kt class. The response will be returned as a single entity with several collections.
+in the [Main.kt](./src/main/kotlin/Main.kt) class. The response will be returned as a single entity with several collections.
 
+The project supports `gradle clean build` command to compile and run the tests.
+
+---
 Possible ways to improve:
 
 1) Hashing and storing the response in a collection/DB/file, not to go through the query again
